@@ -3949,7 +3949,7 @@ const m = {
                         m.holding();
                         m.throwBlock();
                     } else if (input.field && m.fieldCDcycle < m.cycle) {
-                        const drain = 0.0026 / (1 + 0.03 * m.coupling)
+                        const drain = 0
                         if (m.energy > drain) m.energy -= drain
                         m.grabPowerUp();
                         m.lookForPickUp(); //this drains energy 0.001
