@@ -508,7 +508,7 @@ const m = {
     maxHealth: 1, //set in simulation.reset()
     drawHealth() {
         if (m.health < 1) {
-            ctx.fillStyle = "rgba(100, 100, 100, 0.5)";
+            ctx.fillStyle = "rgba(160, 32, 240, 0.5)";
             ctx.fillRect(m.pos.x - m.radius, m.pos.y - 50, 60, 10);
             ctx.fillStyle = "#f00";
             ctx.fillRect(
