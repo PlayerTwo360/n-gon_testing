@@ -676,7 +676,7 @@ summary {
     transition: width 1s ease-out;
     z-index: 2;
     pointer-events: none;
-    background-color: rgb(9, 245, 166);
+    background-color: rgb(160,32,240);
     border-right: 2px solid rgb(51, 162, 125);
     display: none;
 }
