@@ -3812,7 +3812,7 @@ const m = {
             const timeStop = () => {
                 m.immuneCycle = m.cycle + 10; //immune to harm while time is stopped,  this also disables regen
                 //draw field everywhere
-                ctx.globalCompositeOperation = "saturation"
+                ctx.globalCompositeOperation = "hard-light"
                 ctx.fillStyle = "#ccc";
                 ctx.fillRect(-50000, -50000, 100000, 100000)
                 ctx.globalCompositeOperation = "source-over"
